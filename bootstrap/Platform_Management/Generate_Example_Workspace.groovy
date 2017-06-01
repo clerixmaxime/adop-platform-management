@@ -19,7 +19,7 @@ generateExampleWorkspaceJob.with{
         stringParam("workspaceAdmin","Admin","")
         stringParam("workspaceDeveloper","Developer","")
         stringParam("workspaceViewer","Viewer","")
-        stringParam("cartridgeURL","ssh://jenkins@gerrit:29418/cartridges/adop-cartridge-java.git","")
+        stringParam("cartridgeURL","ssh://jenkins@gerrit:29418/cartridges/adop-cartridge-javascript.git","")
         stringParam("scmProvider",gerritRootUrl + " - ssh (adop-gerrit-ssh)","")
     }
     properties {
